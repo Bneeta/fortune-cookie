@@ -22,7 +22,8 @@ class MainHandler(webapp2.RequestHandler):
 
         fortunecookie=["A dream you have will come true.","You will marry your lover.",
         "Your high-minded principles spell success.","You can make your own happiness.",
-        "Wealth awaits you very soon.","A feeling is an idea with roots."]
+        "Wealth awaits you very soon.","A feeling is an idea with roots.",
+        "Not all closed eye is sleeping, nor open eye is seeing.","Everything will be ok. Don't obsess.Time will prove you right, you must stay where you are."]
 
         display = random.choice(fortunecookie)
 
